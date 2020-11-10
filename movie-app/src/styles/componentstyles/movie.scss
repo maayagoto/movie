@@ -1,0 +1,41 @@
+
+.title{
+    color: aqua;
+    font-size: 20px;
+  }
+
+.overview{
+    text-align: left;
+    font-size: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    @media (min-width: 550px){
+    text-align: left;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  @media (min-width: 800px){
+    text-align: left;
+    font-size: 12px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  @media (min-width: 1000px){
+    text-align: left;
+    font-size: 12px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+.mylist-btn{
+  background-color:#d1d6da;
+  color:black;
+  font-size: 14px;
+  text-decoration: none;
+  width: 200px;
+  line-height: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}

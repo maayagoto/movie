@@ -1,0 +1,41 @@
+.movies-filter ul{
+    display: flex;
+    padding:0;
+    list-style:none;
+    justify-content: space-between;
+    max-width:800px;
+    margin:auto;
+    margin-bottom:40px ;
+
+  a{
+    background-color:#d64fcd;
+    color:black;
+    font-size: 12px;
+    grid-template-columns:40px 40px;
+    grid-template-rows: 30px, 30px;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 45px;
+    line-height: 15px;
+    @media (min-width: 400px){
+        font-size: 15px;
+        width: 60px;
+        line-height: 20px;
+    }
+    @media (min-width: 550px){
+        font-size: 20px;
+        width: 100px;
+        line-height: 20px;
+    }
+    @media (min-width: 600px){
+            font-size: 20px;
+            width: 120px;
+            line-height: 20px;
+    }
+}
+}

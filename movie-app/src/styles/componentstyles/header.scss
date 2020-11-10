@@ -1,0 +1,19 @@
+header{
+    .gradient {
+        width: 40%;
+        height: 200px; 
+    }
+    padding: 10px 20px;
+    text-align: center;
+    h1 {
+        font-size: 70px;
+        background: linear-gradient( to bottom,
+            #d64fcd 25%, 
+            #b524ee 45%, 
+            #56f3f8 75%, 
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+}
